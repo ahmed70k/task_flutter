@@ -12,6 +12,7 @@ class AppColors {
   static const Color white2 = Color(0xffEDF2F3);
   static const Color green2 = Color(0xffD0E4E4);
   static const Color transparent = Colors.transparent;
+  static const Color cardColor = Color(0xff0ffffff);
 
 
 }

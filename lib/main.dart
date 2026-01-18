@@ -1,4 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:task_flutter/features/admin/ui/admin_screen/screens_apis/accounts_screen/accounts_screen.dart';
+import 'package:task_flutter/features/admin/ui/admin_screen/screens_apis/maintenance_screen/maintenance_screen.dart';
+import 'package:task_flutter/features/admin/ui/admin_screen/screens_apis/residents_screen/residents_screen.dart';
+import 'package:task_flutter/features/admin/ui/admin_screen/screens_apis/units_screen/units_screen.dart';
 import 'package:task_flutter/features/auth/ui/login_screen/login_screen.dart';
 import 'package:task_flutter/features/auth/ui/register_screen/register_screen.dart';
 
@@ -19,6 +23,10 @@ class MyApp extends StatelessWidget {
         LoginScreen.routeName: (_) => LoginScreen(),
         RegisterScreen.routeName: (_) => RegisterScreen(),
         AdminScreen.routeName: (_) => AdminScreen(),
+        UnitsScreen.routeName: (_) => UnitsScreen(),
+        ResidentsScreen.routeName: (_) => ResidentsScreen(),
+        MaintenanceScreen.routeName: (_) => MaintenanceScreen(),
+        AccountsScreen.routeName: (_) => AccountsScreen(),
       },
     );
   }

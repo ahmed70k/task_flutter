@@ -8,6 +8,14 @@ class AppStyles {
     fontSize: 24,
     color: AppColors.black,
   );
+  static final TextStyle semiBoldSecondary24 = GoogleFonts.poppins(
+    fontSize: 24,
+    color: AppColors.secondary,
+  );
+  static final TextStyle semiBoldSecondary16 = GoogleFonts.poppins(
+    fontSize: 16,
+    color: AppColors.secondary,
+  );
   static final TextStyle semiBoldPrimary18= GoogleFonts.poppins(
     fontSize: 18,
     color: AppColors.black,
